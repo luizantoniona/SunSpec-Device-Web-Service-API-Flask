@@ -1,0 +1,120 @@
+{
+    "group": {
+        "desc": "Base Meteorological Model",
+        "label": "Base Met",
+        "name": "base_met",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "label": "Model ID",
+                "mandatory": "M",
+                "name": "ID",
+                "size": 1,
+                "static": "S",
+                "type": "uint16",
+                "value": 307
+            },
+            {
+                "desc": "Model length",
+                "label": "Model Length",
+                "mandatory": "M",
+                "name": "L",
+                "size": 1,
+                "static": "S",
+                "type": "uint16",
+                "value": 13
+            },
+            {
+                "label": "Ambient Temperature",
+                "name": "TmpAmb",
+                "sf": -1,
+                "size": 1,
+                "type": "int16",
+                "units": "C",
+                "value": 15
+            },
+            {
+                "label": "Relative Humidity",
+                "name": "RH",
+                "size": 1,
+                "type": "int16",
+                "units": "Pct",
+                "value": 20
+            },
+            {
+                "label": "Barometric Pressure",
+                "name": "Pres",
+                "size": 1,
+                "type": "int16",
+                "units": "HPa",
+                "value": 1
+            },
+            {
+                "label": "Wind Speed",
+                "name": "WndSpd",
+                "size": 1,
+                "type": "int16",
+                "units": "mps",
+                "value": "7"
+            },
+            {
+                "label": "Wind Direction",
+                "name": "WndDir",
+                "size": 1,
+                "type": "int16",
+                "units": "deg",
+                "value": 45
+            },
+            {
+                "label": "Rainfall",
+                "name": "Rain",
+                "size": 1,
+                "type": "int16",
+                "units": "mm",
+                "value": 20
+            },
+            {
+                "label": "Snow Depth",
+                "name": "Snw",
+                "size": 1,
+                "type": "int16",
+                "units": "mm",
+                "value": 0
+            },
+            {
+                "desc": "\u00a0Precipitation Type (WMO 4680 SYNOP code reference)",
+                "label": "Precipitation Type",
+                "name": "PPT",
+                "size": 1,
+                "type": "int16",
+                "value": 0
+            },
+            {
+                "label": "Electric Field",
+                "name": "ElecFld",
+                "size": 1,
+                "type": "int16",
+                "units": "Vm",
+                "value": 0
+            },
+            {
+                "label": "Surface Wetness",
+                "name": "SurWet",
+                "size": 1,
+                "type": "int16",
+                "units": "kO",
+                "value": 0
+            },
+            {
+                "label": "Soil Wetness",
+                "name": "SoilWet",
+                "size": 1,
+                "type": "int16",
+                "units": "Pct",
+                "value": 0
+            }
+        ],
+        "type": "group",
+        "id": 307
+    }
+}
